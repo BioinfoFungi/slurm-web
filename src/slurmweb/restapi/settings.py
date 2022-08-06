@@ -22,7 +22,7 @@ import os
 import configparser
 
 # path can be set by the env variable REST_CONF
-path = os.getenv('RESTAPI_CONF', r'/home/wangyang/workspace/slurm-web-master/conf/restapi.conf')
+path = os.getenv('RESTAPI_CONF', r'./restapi.conf')
 settings = configparser.ConfigParser(interpolation=configparser.ExtendedInterpolation())
 settings.read(path)
 
