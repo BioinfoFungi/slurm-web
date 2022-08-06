@@ -20,6 +20,13 @@ python -m http.server
 
 ![](vignette/ldap.png)
 
+## PySlurm安装
+```
+git clone https://github.com/PySlurm/pyslurm.git
+python setup.py build --slurm-inc=/usr/include/slurm-wlm --slurm-lib=/usr/lib/x86_64-linux-gnu/
+```
+> <https://github.com/PySlurm/pyslurm/issues/120>
+> <https://github.com/PySlurm/pyslurm>
 
 ## 更新日志
 #### 2022.8.6
