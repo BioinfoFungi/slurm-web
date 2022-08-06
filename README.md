@@ -28,6 +28,14 @@ python setup.py build --slurm-inc=/usr/include/slurm-wlm --slurm-lib=/usr/lib/x8
 > <https://github.com/PySlurm/pyslurm/issues/120>
 > <https://github.com/PySlurm/pyslurm>
 
+
+## python-ldap
+```
+X11QPH:~/software/slurm-web-master$ apt-cache search ldap2
+libldap2-dev - OpenLDAP development libraries
+sudo apt-get install libldap2-dev
+```
+
 ## 更新日志
 #### 2022.8.6
 将项目跑起来，没有实现权限管理。已经测试测试安装好slurm，就可以在网页查看job的信息。
