@@ -572,4 +572,4 @@ def filter_entities(entity, entitiesList):
 
 if __name__ == '__main__':
     CORS(app, supports_credentials=True)
-    app.run(debug=True)
+    app.run(debug=True,host="0.0.0.0")
